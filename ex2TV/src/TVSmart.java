@@ -1,11 +1,13 @@
-//Implementar uma solução em java para o seguinte contexto abaixo
-// Uma Tv é caracterizada pela marca, se é smart, se está ligada (power),
-// o canal do momento e a senha do wifi se for smart.
-// Uma TV comum é instanciada passando a marca e para a smart, uma senha padrão.
-// (Sempre) O canal é 100 e desligada. Existem vários modos de ligar a TV.
-// Pelo próprio aparelho (sem parâmetros), pelo controle remoto (passa o canal )
-// e se for smart passamos  a senha. Retorna-se true ou false.
-// Uma Tv  comum não pode ser ligada como uma smart.
+public class TVSmart extends TV{
+    private int senhaPadrao;
+    private String senhaWifi;
 
-public class TVSmart {
+    public TVSmart(int senhaPadrao, String senhaWifi) {
+        this.senhaPadrao = senhaPadrao;
+        this.senhaWifi = senhaWifi;
+    }
+
+    public boolean ligarTvSmart(int senhaPadrao) {
+     return ;
+    }
 }
