@@ -4,9 +4,15 @@ public class TV {
     private String canalDoMomento;
     private TVSmart tvSmart;
 
-    public TV(String marca, boolean ligada, String canalDoMomento, TVSmart tvSmart) {
+    public TV(String marca, String canalDoMomento) {
         this.marca = marca;
-        this.ligada = ligada;
+        this.ligada = false;
+        this.canalDoMomento = canalDoMomento;
+    }
+
+    public TV(String marca, String canalDoMomento, TVSmart tvSmart) {
+        this.marca = marca;
+        this.ligada = false;
         this.canalDoMomento = canalDoMomento;
         this.tvSmart = tvSmart;
     }

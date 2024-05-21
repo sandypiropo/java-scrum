@@ -10,6 +10,7 @@
 public class Main {
     public static void main(String[] args) {
 
-
+    TV tv1 = new TV("LG","Globo");
+        System.out.println(tv1);
     }
 }
