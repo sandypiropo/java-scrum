@@ -15,5 +15,6 @@ public class Livraria {
         System.out.println("Nome do Título: " + titulo.getNome());
         System.out.println("Quantidade: " + quantidade);
         System.out.println("Preço Total: R$" + precoTotal);
+        System.out.println("");
     }
 }
